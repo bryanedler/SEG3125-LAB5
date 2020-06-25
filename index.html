@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+References:
+http://code.jquery.com/
+https://www.youtube.com/watch?v=WhU38HV-Iu8
+https://www.youtube.com/watch?v=6HWaZIfUZVg
+https://webkul.com/blog/jquery-datepicker/
+https://stackoverflow.com/questions/39158904/datepicker-with-past-dates-and-sunday-disabled
+https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp
+https://www.batoi.com/support/articles/article/validate-phone-number-format-using-jquery
+-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab 5</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+  	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script>
+  </script>
+	<link href="style.css" rel="stylesheet">
+	<script src="scripts/service.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+	
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" >
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/mylogo.png" height="100em" width="100em"> </a>
+	<button class="navbar-toggler" type="button" data-toggle ="collapse" data-target = "#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			
+			<li class="nav-item active">
+				<a class="nav-link" href="#">About us</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#meetTeam">Meet our Team</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#ourServices">Services</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#contactUs">Contact us</a>
+			</li>
+
+			
+		</ul>
+	</div>
+</div>
+</nav>
+
+
+<!--- Image  -->
+	
+	<div class="carousel-inner">
+
+		<div class="carousel-item active">
+			<img class="center-fit" src="img/background.jpg">
+			
+			<div class="carousel-caption">
+				<h1 class="disply-2">Welcome to <mark>Instyle</mark> Beauty Salon</h1>
+				<h3>your satisfaction is our responsibility</h3>
+			</div>
+		</div>
+		
+	</div>
+
+
+				<!--the red area-->
+
+	<div class="container4">
+			<h1> Passionate, experienced and fun</h1>
+			<p class="lead"> We love helping people find the style that is as beautiful and unique as they are, while having fun along the way!</p>				
+	</div><br>
+
+			
+
+
+		
+			
+	
+
+
+<div class="container1 padding">
+	<div class="mt-xl-4">
+		<h2>Our Services</h2>
+		
+		<br><br>
+	<!--<a class="inner-nav" href="#">Book an Appointment</a>-->
+	</div>
+	<p></p>
+	<p></p>
+	<div class="container1-inner row padding" id="ourServices">
+		<div class="img1-container">
+			<p>
+				Our highly trained and skilled staff will work with you to get the great look you’re going for! We’ll make sure you leave with that fresh haircut confidence, ontop of a very wide smile!
+			</p>
+			<div class="treatment">
+			<img class="fit" src="img/haircut.jpg">
+			<div class="services">
+				<h1> Haircuts</h1>
+			</div>
+			</div>
+		</div>
+		
+		<div class=" img2-container">
+			<p>
+				Hair colour trends and techniques are constantly evolving. At <mark>Instyle</mark> we keep up with those trends to give you the best look – while staying true to you!
+			</p>
+			<div class="treatment">
+				<img class="fit" src="img/highlights.png">
+				<div class="services">
+				<h1> Highlights</h1>
+				</div>	
+			</div>
+			
+		</div>
+		<div class="img3-container">
+			<p>
+				Hair colour trends and techniques are constantly evolving. At Instyle we keep up with those trends to give you the best look – while staying true to you!
+			</p>
+			<div class="treatment">
+				<img class="fit" src="img/dye.png">
+				<div class="services">
+				<h1> Dye</h1>
+				</div>
+			</div>
+		</div>
+		<div class=" img4-container">
+			<p>
+				Our extensions are of the best quality. No matter what condition yor hair is in, our experienced team can help you pull it off! Trust us to give you a look you’ll love long after your visit!
+			</p>
+			<div class="treatment">
+
+			<img class="fit" src="img/extensions.png">
+			<div class="services">
+				<h1> Extensions</h1>
+			</div>
+			</div>
+		</div>
+		<div class="img5-container">
+
+			<p>
+				No matter what condition yor hair is in, our experienced team can help you pull it off! Trust us to give you a look you’ll love long after your visit!
+			</p>
+			<div class="treatment">
+			<img class="fit" src="img/treatment.png">
+			<div class="services">
+				<h1> Treatment</h1>
+			</div>
+			</div>
+		</div>
+			
+	</div>
+</div><br>
+	<div><button id="appointment" class="inner-nav btn ">Book an Appointment</button></div>
+
+						<!--Book an appointment area-->
+
+	<div id="make-appointment" class="appointment-form col-lg-3 mb-4">
+		<div class="card">
+        	<div class="card-body">
+          <!--Header-->
+          		<div class="form-header blue accent-1">
+            		<h3>Book an appointment:</h3>
+          		</div>
+          <!--Body-->
+				<div class="md-form">
+				    <i class="fas fa-user prefix grey-text"></i>
+				    <input type="text" id="form-name" class="form-control">
+				    <label for="form-name">Your name</label>
+				</div>
+				<div class="md-form">
+				    <i class="fa fa-phone prefix grey-text"></i>
+				    <input type="text" id="txtPhone" class="form-control">
+				    <label for="form-phone">Your phone number</label>
+				</div>
+				
+				<div class="dateForm" id="date">
+					<label for="dateForm">Pick a date</label>
+				</div>
+				<div class="md-form">
+				    <h3>select a service(s)</h3>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="checkbox" class="form-check-input" value="">Haircuts
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="checkbox" class="form-check-input" value="">Highlights
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="checkbox" class="form-check-input" value="">Dye
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="checkbox" class="form-check-input" value="">Extension
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="checkbox" class="form-check-input" value="">Treatment
+				  </label>
+				</div><br>
+				<h3>Request a hairdresser</h3>
+										
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="optradio">Lora
+				  </label>
+				</div>
+				<div class="form-check-inline">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="optradio">Kate
+				  </label>
+				</div>
+				<div class="form-check-inline disabled">
+				  <label class="form-check-label">
+				    <input type="radio" class="form-check-input" name="optradio">Suzan
+				  </label>
+				</div>
+
+				<div class="md-form">  
+				    <i class="fa fa-credit-card prefix white-text"></i>
+				    <input type="text" id="creditCard" class="form-control">
+				    <label for="form-phone">please inter your cridet card for reservation</label>
+				</div>
+
+				<div class="text-center mt-4">
+				    <button id="hide" class="btn btn-light-blue">Submit</button>
+				</div>
+
+        	</div>
+
+      	</div>
+      		
+    </div>
+
+
+
+
+										<!-- Team info-->
+<div class="container2 padding" id="meetTeam">
+	<h2>Meet Our Team</h2>
+	<div class="container2-inner row padding">
+		<div class="col-lg-2">
+			<p class="double-spaced">
+				Lora began her career 12 years ago with a sincere passion for style and genuine care for each individual's needs. In order to fine-tune her natural talent, she felt it essential to continue her path onwards with an accelerated technical education. She is honors graduate and has successfully earned diplomas in Classic as well as Modern Colour and Cutting, Creative Design and Artistic Up- Styling Programs. Working closely and training with industry specialists from Aveda, Vidal Sassoon, Schwarzkopf, Bumble and Bumble, Label M and Davines has helped her to develop balance and harmony.
+			</p>			
+		</div>
+		<div class="col-lg-2">
+			<img class="img-fluid" alt="Responsive image" src="img/hairdresser11.jpg">
+		</div>
+		<div class="col-lg-2">
+			<p class="double-spaced">
+				Since 2011 I have had the pleasure of working in the one field that I love, makeup artistry. My makeup career began five years ago as a beauty advisor for Sears Canada’s Cargo Cosmetics. One year later I joined the Mac Cosmetics’ Hudson's Bay Rideau team as one of their Mac Artists. While working for Mac I received certifications for Makeup Application, Makeup Lessons and Advanced Makeup Certifications. I have worked as a freelance makeup artist, where I have worked on commercial events, such as fashion shows, editorial publications, and makeup workshops.
+			</p>			
+		</div>
+		<div class="col-lg-2">
+			<img class="img-fluid" alt="Responsive image" src="img/hairdresser12.jpg">
+		</div>
+		<div class="col-lg-2">
+			<p class="double-spaced">
+				Suzan started her career 9 years ago in Russia. Her passion and kind nature provide an aura that is hard to miss. Suzan has a diploma from the Academy of Coloristics and Geometry in Moscow. Her cutting technique is influenced by Alexander Todchuk, a renowned Russian hairstylist. She loves working with all of the Davines products and is always educating her clients on how to keep healthy and beautiful hair. Irina believes the best approach in providing a style that is fitting for each guest is to take in to account all contributing factors; texture, structure and physical features.
+			</p>			
+		</div>
+		<div class="col-lg-2">
+			<img class="img-fluid" alt="Responsive image" src="img/hairdresser13.jpg">
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container3 padding" id="contactUs">
+	<!--Google map--  reference: https://mdbootstrap.com/docs/jquery/javascript/google-maps/-->
+	<!--Section: Contact v.1-->
+	<section class="section pb-5">
+
+	  	<!--Section heading-->
+	  	<h2 class="section-heading h1 pt-4">Contact us</h2>
+	  	<!--Section description-->
+	  	<p class="section-description pb-4">We answer emails, phone calls, or you can just drop by if you are in the mood for a little gossip! Please let us know the times that suit you and we will get back to you very soon!</p>
+
+  		<div class="row">
+
+    <!--Grid column-->
+    		<div class="contact col-lg-5 mb-4">
+
+      <!--Form with header-->
+      			<div class="card">
+
+        			<div class="card-body">
+          <!--Header-->
+          				<div class="form-header blue accent-1">
+            				<h3><i class="fas fa-envelope"></i> Write to us:</h3>
+          				</div>
+          <!--Body-->
+				        <div class="md-form">
+				            <i class="fas fa-user prefix grey-text"></i>
+				            <input type="text" id="form-name" class="form-control">
+				            <label for="form-name">Your name</label>
+				        </div>
+
+			          	<div class="md-form">
+				            <i class="fas fa-envelope prefix grey-text"></i>
+				            <input type="text" id="form-email" class="form-control">
+				            <label for="form-email">Your email</label>
+			          	</div>
+
+				        <div class="md-form">
+				            <i class="fas fa-tag prefix grey-text"></i>
+				            <input type="text" id="form-Subject" class="form-control">
+				            <label for="form-Subject">Subject</label>
+				        </div>
+
+				        <div class="md-form">
+				            <i class="fas fa-pencil-alt prefix grey-text"></i>
+				            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+				            <label for="form-text">Icon Prefix</label>
+				        </div>
+
+				        <div class="text-center mt-4">
+				            <button class="btn btn-light-blue">Submit</button>
+				        </div>
+
+        			</div>
+
+      			</div>
+      <!--Form with header-->
+
+    		</div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+		    <div class="col-lg-7">
+
+		      <!--Google map-->
+		      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+		        <iframe src="https://maps.google.com/maps?q=new%20/800%20King Edward&t=&z=13&ie=UTF8&iwloc=&output=embed"
+		          frameborder="0" style="border:0" allowfullscreen></iframe>
+		      </div><br>
+	      <!--Buttons-->
+		      <div class="row text-center">
+		        <div class="col-md-4">
+		          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+		          <p>Ottawa, ON K1N 6N5</p>
+		          <p>Canada</p>
+		        </div>
+
+		        <div class="col-md-4">
+		          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+		          <p>+ 1 613 613 6136</p>
+		          <p>Mon - Sun, 8:00-22:00</p>
+		        </div>
+
+		        <div class="col-md-4">
+		          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+		          <p>info@gmail.com</p>
+		          <p>sale@gmail.com</p>
+		        </div>
+		      </div>
+
+		    </div>
+	    <!--Grid column-->
+
+	  	</div>
+
+	</section>
+<!--Section: Contact v.1-->
+	<!--Google Maps-->	
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

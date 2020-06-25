@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+/* keep the navbar ontop */
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: .3em;
+}​
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.center-fit {
+            
+  max-height: 80vh;
+  margin: auto;
+}
+.padding{
+  padding-bottom: 2em;
+  padding: 2em;
+}
+
+
+.container-fluid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.container4 {
+    height: 20em;
+    position: relative;
+    background-color: red;
+}
+.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: x-large;
+    color: white;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+.container4 h1 {
+    margin: 0;
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.container1{
+  height: 70%;
+  width: 100%;
+}
+.container1 h2{
+  padding-left: 2em;
+  position: relative
+}
+
+button.inner-nav {
+    color: black;
+    background-color: grey;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+div.container1-inner {
+    height: 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.img1-container{
+  position: relative;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.appointment-form{
+  display: none;
+}
+.container1-inner p{
+  background-color: white;
+  font-size: large;
+  color: #000000;
+  display: none;
+}
+.img1-container:hover p{
+  display: block;
+}
+.img2-container{
+  position: relative;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+/*.img2-container p{
+  background-color: black;
+  color: white;
+  display: none;
+}*/
+.img2-container:hover p{
+  display: block;
+}
+.img3-container{
+  position: relative;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+/*.img3-container p{
+  background-color: black;
+  color: white;
+  display: none;
+}*/
+.img3-container:hover p{
+  display: block;
+}
+.img4-container{
+  position: relative;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+/*.img4-container p{
+  background-color: red;
+  color: white;
+  font-size: large;
+  display: none;
+}*/
+.img4-container:hover p{
+  display: block;
+}
+.img5-container{
+  position: relative;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+/*.img5-container p{
+  background-color: black;
+  color: white;
+  display: none;
+}*/
+.img5-container:hover p{
+  display: block;
+}
+.treatment{
+  position: relative;
+}
+.fit{
+  max-width: 100%;
+  max-height: 80%;
+}
+.services{
+  height: 5em;
+  position: relative; 
+}
+.services h1 {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)  
+}
+.container2-inner{
+  height: 30%;
+  width: 100%;
+}
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.double-spaced{
+  line-height: 2;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+  border: 1px solid #dad55e;
+  background: #fffa90;
+  color: #777620;
+}
+.ui-state-checked {
+  border: 1px solid #dad55e;
+  background: #fffa90;
+}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+  color: #777620;
+}
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
